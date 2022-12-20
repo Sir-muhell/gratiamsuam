@@ -150,7 +150,7 @@ h6,
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   vertical-align: middle;
-  margin-left: 8px;
+  margin-left: 50px;
 }
 
 @media (max-width: 991.98px) {
@@ -695,6 +695,11 @@ h6,
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+a.copy:hover {
+  color: #eeeeee;
+}
+
+/* gallery-image */
 div.gallery {
   border: 1px solid #ccc;
 }
@@ -736,6 +741,7 @@ div.desc {
   }
 }
 
+/* Gallery */
 .clearfix:after {
   content: "";
   display: table;
